@@ -25,6 +25,7 @@ $save = function () {
 ?>
 
 <div class="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8">
+    <h1 class="text-2xl font-bold text-blue-600 mb-6">新規メモ作成</h1>
     <form wire:submit="save" class="space-y-6">
         <div>
             <label for="title" class="block text-base font-medium text-blue-600">
